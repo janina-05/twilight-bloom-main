@@ -34,7 +34,7 @@ $mail->Password = 'jfhr pbii yevr dbzr';
   $mail->setFrom('emaili_yt@gmail.com', 'Twilight-Bloom');
   $mail->addAddress($_POST['email']); 
   $mail->Subject = 'We have received your message.';
-  $mail->Body = 'Thank you for contacting us. We will get back to you as soon as possible :)';
+  $mail->Body = 'Thank you for contacting us. We will get back to you as soon as possible. :)';
 
   
   $mail->send();
